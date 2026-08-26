@@ -1,0 +1,55 @@
+﻿{
+  "personal": {
+    "fullName": "Sujit Kumar",
+    "title": "Software Engineer",
+    "tagline": "Building scalable products with strong engineering fundamentals.",
+    "about": "I build end-to-end systems with strong focus on maintainability, performance, and quality. I enjoy shipping products that scale from MVP to production with clean architecture and measurable impact.",
+    "location": "India",
+    "email": "sujeet.sharma2395@gmail.com"
+  },
+  "socialLinks": [
+    { "platform": "GitHub", "url": "https://github.com/sujeet2395", "icon": "GH" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/sujeet-sharma", "icon": "IN" },
+    { "platform": "X", "url": "https://twitter.com/SujitKumar2395", "icon": "X" },
+    { "platform": "Email", "url": "mailto:sujeet.sharma2395@gmail.com", "icon": "@" }
+  ],
+  "skills": [
+    { "name": "React", "category": "Frontend", "level": 88 },
+    { "name": "TypeScript", "category": "Frontend", "level": 85 },
+    { "name": "JavaScript", "category": "Frontend", "level": 90 },
+    { "name": "Node.js", "category": "Backend", "level": 82 },
+    { "name": "Java", "category": "Backend", "level": 80 },
+    { "name": "Python", "category": "Backend", "level": 84 },
+    { "name": "PostgreSQL", "category": "Database", "level": 78 },
+    { "name": "MySQL", "category": "Database", "level": 70 },
+    { "name": "AWS", "category": "Cloud", "level": 76 },
+    { "name": "Selenium", "category": "QA", "level": 69 },
+    { "name": "Robot Framework", "category": "QA", "level": 76 }
+  ],
+  "education": [],
+  "experience": [],
+  "projects": [
+    {
+      "name": "LetsDare",
+      "description": "Social Q&A game platform with real-time style interactions and user-friendly responsive UI.",
+      "technologies": ["Django", "PostgreSQL", "Bootstrap", "JavaScript"],
+      "liveUrl": "https://codeexperts.herokuapp.com"
+    },
+    {
+      "name": "Service Request System",
+      "description": "Workflow application for managing request tickets with role-based actions and ticket lifecycle.",
+      "technologies": ["Java", "JSP", "Servlet", "JDBC", "PostgreSQL"],
+      "liveUrl": "https://servicerequestmgt.herokuapp.com"
+    },
+    {
+      "name": "QA Accelerator",
+      "description": "Automation framework starter designed to reduce repetitive test setup and improve coverage speed.",
+      "technologies": ["Python", "Selenium", "Robot Framework", "CI/CD"],
+      "repoUrl": "https://github.com/sujeet2395"
+    }
+  ],
+  "contact": {
+    "formEndpoint": "",
+    "successMessage": "Thanks for reaching out. I will get back to you soon."
+  }
+}
