@@ -1,8 +1,8 @@
 ﻿import { FormEvent, useMemo, useState } from "react";
 import portfolio from "./data/portfolio.json";
-import type { PortfolioConfig, Skill } from "./types";
+import type { Skill } from "./types";
 
-const config = portfolio as PortfolioConfig;
+const config = portfolio as { personal: { fullName: string; title: string; tagline?: string; about: string; location: string; email: string }; socialLinks: { platform: string; url: string; icon: string }[]; skills: Skill[]; projects: { name: string; description: string; technologies: string[]; repoUrl?: string; liveUrl?: string }[]; contact: { formEndpoint: string; successMessage: string } };
 
 function groupSkills(skills: Skill[]) {
   return skills.reduce<Record<string, Skill[]>>((acc, skill) => {

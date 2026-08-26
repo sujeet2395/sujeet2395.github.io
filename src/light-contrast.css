@@ -1,0 +1,109 @@
+/* Keep high-emphasis sections in the same light editorial palette as the page. */
+.system-canvas {
+  background: linear-gradient(145deg, #eef3ff, #f7f4ff);
+  color: var(--ink);
+  border: 1px solid #d3dcf2;
+  box-shadow: 0 20px 42px rgba(50, 76, 132, 0.12);
+}
+
+.system-canvas:after {
+  background: linear-gradient(120deg, transparent 48%, rgba(117, 82, 217, 0.08));
+}
+
+.canvas-label,
+.canvas-code {
+  color: #667396;
+}
+
+.flow-node {
+  background: #ffffff;
+  border-color: #cbd7f1;
+  color: #27395f;
+}
+
+.flow-node small,
+.service-grid small {
+  color: #7180a2;
+}
+
+.flow-node.api {
+  background: #f2edff;
+  border-color: #c9b8f4;
+}
+
+.flow-node.services {
+  background: #eaf8f7;
+  border-color: #a9ddd5;
+}
+
+.service-grid > div {
+  background: #ffffff;
+  border-color: #d3dcf2;
+  color: #394a70;
+}
+
+.node-dot { background: var(--blue); }
+
+.data-rail span {
+  background: #dfe8fb;
+  color: #435679;
+}
+
+.canvas-code { border-color: #d4ddef; }
+.canvas-code span { color: #8794b2; }
+
+.project-card:first-child {
+  background: linear-gradient(145deg, #f3efff, #fbf8ff);
+  color: var(--ink);
+  border-color: #d8caf6;
+}
+
+.project-card:first-child .project-eyebrow,
+.project-card:first-child .tags span {
+  color: #68548f;
+  border-color: #ddcff4;
+  background: #ffffff;
+}
+
+.project-card:first-child p:not(.project-eyebrow) { color: var(--ink-soft); }
+.project-card:first-child .text-button { color: var(--blue); }
+
+.architecture-detail {
+  background: linear-gradient(145deg, #eaf8f5, #f5fcfa);
+  border: 1px solid #bfe3da;
+  color: var(--ink);
+}
+
+.architecture-detail p { color: var(--ink-soft); }
+.architecture-detail > span { color: #397d70; }
+
+.contact-section {
+  background: linear-gradient(125deg, #eff4fb, #f7f9fd 64%, #eef4fa);
+  color: var(--ink);
+  border-top: 1px solid #d3deec;
+  border-bottom: 1px solid #d3deec;
+}
+
+.contact-section .section-kicker { color: var(--violet); }
+.contact-section > div > p:not(.section-kicker) { color: var(--ink-soft); }
+.contact-links a { color: #3f5178; }
+.contact-links b { color: var(--blue); }
+.contact-section label { color: #51617f; }
+
+.contact-section input,
+.contact-section textarea {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.8);
+  border-color: #c7d3eb;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus { border-color: var(--blue); }
+
+.contact-section .primary {
+  background: var(--ink);
+  color: #ffffff;
+  border-color: var(--ink);
+}
+
+.form-status { color: #425982; }
