@@ -3,5 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/sujeet2395.github.io/',
+  base: '/',
+  build: {
+    outDir: 'build',
+  },
 });
